@@ -1,0 +1,15 @@
+//
+//  ScrollTableView.pch
+//  ScrollTableView
+//
+//  Created by admin on 2017/7/26.
+//  Copyright © 2017年 admin. All rights reserved.
+//
+
+#ifndef ScrollTableView_pch
+#define ScrollTableView_pch
+#import <Masonry.h>
+#define screenWidth  [UIScreen mainScreen].bounds.size.width
+#define screenHeight  [UIScreen mainScreen].bounds.size.height
+
+#endif /* ScrollTableView_pch */

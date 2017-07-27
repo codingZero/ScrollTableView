@@ -1,0 +1,422 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		84EE3BFE1F2897B7008B2C23 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE3BFD1F2897B7008B2C23 /* main.m */; };
+		84EE3C011F2897B7008B2C23 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE3C001F2897B7008B2C23 /* AppDelegate.m */; };
+		84EE3C041F2897B7008B2C23 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE3C031F2897B7008B2C23 /* ViewController.m */; };
+		84EE3C071F2897B7008B2C23 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EE3C051F2897B7008B2C23 /* Main.storyboard */; };
+		84EE3C091F2897B7008B2C23 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84EE3C081F2897B7008B2C23 /* Assets.xcassets */; };
+		84EE3C0C1F2897B7008B2C23 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84EE3C0A1F2897B7008B2C23 /* LaunchScreen.storyboard */; };
+		84EE3C161F289979008B2C23 /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE3C151F289979008B2C23 /* BaseViewController.m */; };
+		84EE3C191F289B3A008B2C23 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE3C181F289B3A008B2C23 /* FirstViewController.m */; };
+		84EE3C1C1F289B46008B2C23 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE3C1B1F289B46008B2C23 /* SecondViewController.m */; };
+		84EE3C1F1F289B5C008B2C23 /* ThirdViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 84EE3C1E1F289B5C008B2C23 /* ThirdViewController.m */; };
+		D270EB2C434BFDC5A60C1497 /* libPods-ScrollTableView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 99478090BC714CD508A1BD9E /* libPods-ScrollTableView.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		45762F5588222447B3367CED /* Pods-ScrollTableView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollTableView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollTableView/Pods-ScrollTableView.debug.xcconfig"; sourceTree = "<group>"; };
+		84EE3BF91F2897B7008B2C23 /* ScrollTableView.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ScrollTableView.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		84EE3BFD1F2897B7008B2C23 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		84EE3BFF1F2897B7008B2C23 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		84EE3C001F2897B7008B2C23 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		84EE3C021F2897B7008B2C23 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		84EE3C031F2897B7008B2C23 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		84EE3C061F2897B7008B2C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		84EE3C081F2897B7008B2C23 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		84EE3C0B1F2897B7008B2C23 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		84EE3C0D1F2897B7008B2C23 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		84EE3C131F28988E008B2C23 /* ScrollTableView.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ScrollTableView.pch; sourceTree = "<group>"; };
+		84EE3C141F289979008B2C23 /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		84EE3C151F289979008B2C23 /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		84EE3C171F289B3A008B2C23 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		84EE3C181F289B3A008B2C23 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		84EE3C1A1F289B46008B2C23 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		84EE3C1B1F289B46008B2C23 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		84EE3C1D1F289B5C008B2C23 /* ThirdViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdViewController.h; sourceTree = "<group>"; };
+		84EE3C1E1F289B5C008B2C23 /* ThirdViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdViewController.m; sourceTree = "<group>"; };
+		99478090BC714CD508A1BD9E /* libPods-ScrollTableView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-ScrollTableView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE0A82C90627E0DD8822078A /* Pods-ScrollTableView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ScrollTableView.release.xcconfig"; path = "Pods/Target Support Files/Pods-ScrollTableView/Pods-ScrollTableView.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		84EE3BF61F2897B7008B2C23 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D270EB2C434BFDC5A60C1497 /* libPods-ScrollTableView.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		076C40257B471C6017956024 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				99478090BC714CD508A1BD9E /* libPods-ScrollTableView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		494DE2ACBD695A8521ACC404 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				45762F5588222447B3367CED /* Pods-ScrollTableView.debug.xcconfig */,
+				AE0A82C90627E0DD8822078A /* Pods-ScrollTableView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		84EE3BF01F2897B7008B2C23 = {
+			isa = PBXGroup;
+			children = (
+				84EE3BFB1F2897B7008B2C23 /* ScrollTableView */,
+				84EE3BFA1F2897B7008B2C23 /* Products */,
+				494DE2ACBD695A8521ACC404 /* Pods */,
+				076C40257B471C6017956024 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		84EE3BFA1F2897B7008B2C23 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				84EE3BF91F2897B7008B2C23 /* ScrollTableView.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		84EE3BFB1F2897B7008B2C23 /* ScrollTableView */ = {
+			isa = PBXGroup;
+			children = (
+				84EE3BFF1F2897B7008B2C23 /* AppDelegate.h */,
+				84EE3C001F2897B7008B2C23 /* AppDelegate.m */,
+				84EE3C021F2897B7008B2C23 /* ViewController.h */,
+				84EE3C031F2897B7008B2C23 /* ViewController.m */,
+				84EE3C141F289979008B2C23 /* BaseViewController.h */,
+				84EE3C151F289979008B2C23 /* BaseViewController.m */,
+				84EE3C171F289B3A008B2C23 /* FirstViewController.h */,
+				84EE3C181F289B3A008B2C23 /* FirstViewController.m */,
+				84EE3C1A1F289B46008B2C23 /* SecondViewController.h */,
+				84EE3C1B1F289B46008B2C23 /* SecondViewController.m */,
+				84EE3C1D1F289B5C008B2C23 /* ThirdViewController.h */,
+				84EE3C1E1F289B5C008B2C23 /* ThirdViewController.m */,
+				84EE3C051F2897B7008B2C23 /* Main.storyboard */,
+				84EE3C081F2897B7008B2C23 /* Assets.xcassets */,
+				84EE3C0A1F2897B7008B2C23 /* LaunchScreen.storyboard */,
+				84EE3C0D1F2897B7008B2C23 /* Info.plist */,
+				84EE3BFC1F2897B7008B2C23 /* Supporting Files */,
+			);
+			path = ScrollTableView;
+			sourceTree = "<group>";
+		};
+		84EE3BFC1F2897B7008B2C23 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				84EE3BFD1F2897B7008B2C23 /* main.m */,
+				84EE3C131F28988E008B2C23 /* ScrollTableView.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		84EE3BF81F2897B7008B2C23 /* ScrollTableView */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 84EE3C101F2897B7008B2C23 /* Build configuration list for PBXNativeTarget "ScrollTableView" */;
+			buildPhases = (
+				52531F47E96AAE857E202FB8 /* [CP] Check Pods Manifest.lock */,
+				84EE3BF51F2897B7008B2C23 /* Sources */,
+				84EE3BF61F2897B7008B2C23 /* Frameworks */,
+				84EE3BF71F2897B7008B2C23 /* Resources */,
+				3FCC7FFF896559C5DCBD270D /* [CP] Embed Pods Frameworks */,
+				B7DF0DC8E87FE767E186CD9B /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ScrollTableView;
+			productName = ScrollTableView;
+			productReference = 84EE3BF91F2897B7008B2C23 /* ScrollTableView.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		84EE3BF11F2897B7008B2C23 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = admin;
+				TargetAttributes = {
+					84EE3BF81F2897B7008B2C23 = {
+						CreatedOnToolsVersion = 8.3.2;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 84EE3BF41F2897B7008B2C23 /* Build configuration list for PBXProject "ScrollTableView" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 84EE3BF01F2897B7008B2C23;
+			productRefGroup = 84EE3BFA1F2897B7008B2C23 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				84EE3BF81F2897B7008B2C23 /* ScrollTableView */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		84EE3BF71F2897B7008B2C23 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE3C0C1F2897B7008B2C23 /* LaunchScreen.storyboard in Resources */,
+				84EE3C091F2897B7008B2C23 /* Assets.xcassets in Resources */,
+				84EE3C071F2897B7008B2C23 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3FCC7FFF896559C5DCBD270D /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollTableView/Pods-ScrollTableView-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		52531F47E96AAE857E202FB8 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		B7DF0DC8E87FE767E186CD9B /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ScrollTableView/Pods-ScrollTableView-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		84EE3BF51F2897B7008B2C23 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				84EE3C1C1F289B46008B2C23 /* SecondViewController.m in Sources */,
+				84EE3C041F2897B7008B2C23 /* ViewController.m in Sources */,
+				84EE3C161F289979008B2C23 /* BaseViewController.m in Sources */,
+				84EE3C191F289B3A008B2C23 /* FirstViewController.m in Sources */,
+				84EE3C011F2897B7008B2C23 /* AppDelegate.m in Sources */,
+				84EE3BFE1F2897B7008B2C23 /* main.m in Sources */,
+				84EE3C1F1F289B5C008B2C23 /* ThirdViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		84EE3C051F2897B7008B2C23 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EE3C061F2897B7008B2C23 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		84EE3C0A1F2897B7008B2C23 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				84EE3C0B1F2897B7008B2C23 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		84EE3C0E1F2897B7008B2C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		84EE3C0F1F2897B7008B2C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		84EE3C111F2897B7008B2C23 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 45762F5588222447B3367CED /* Pods-ScrollTableView.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ScrollTableView/ScrollTableView.pch";
+				INFOPLIST_FILE = ScrollTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.test.ScrollTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		84EE3C121F2897B7008B2C23 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AE0A82C90627E0DD8822078A /* Pods-ScrollTableView.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/ScrollTableView/ScrollTableView.pch";
+				INFOPLIST_FILE = ScrollTableView/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.admin.test.ScrollTableView;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		84EE3BF41F2897B7008B2C23 /* Build configuration list for PBXProject "ScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE3C0E1F2897B7008B2C23 /* Debug */,
+				84EE3C0F1F2897B7008B2C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		84EE3C101F2897B7008B2C23 /* Build configuration list for PBXNativeTarget "ScrollTableView" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				84EE3C111F2897B7008B2C23 /* Debug */,
+				84EE3C121F2897B7008B2C23 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 84EE3BF11F2897B7008B2C23 /* Project object */;
+}
